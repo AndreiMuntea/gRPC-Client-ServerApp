@@ -1,0 +1,1 @@
+To generate classes from .proto go to packages\Grpc.Tools.1.3.0\tools\windows_x86 and follow the instructions

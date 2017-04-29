@@ -1,0 +1,4 @@
+protoc --csharp_out=../../../../ServerCSharp/Protobuf --grpc_out=../../../../ServerCSharp/Protobuf --plugin=protoc-gen-grpc=grpc_csharp_plugin.exe AppService.proto
+
+
+this will generate files in project's 'Protobuf' directory. Include them in the project and you're done : ) 

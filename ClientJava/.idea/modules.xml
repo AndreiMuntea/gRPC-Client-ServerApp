@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientJava.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientJava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientJava_main.iml" group="ClientJava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientJava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientJava_test.iml" group="ClientJava" />
+    </modules>
+  </component>
+</project>

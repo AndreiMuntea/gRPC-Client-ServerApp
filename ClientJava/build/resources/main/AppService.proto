@@ -1,0 +1,80 @@
+syntax = "proto3";
+
+option csharp_namespace = "Generated.Protobuf";
+
+option java_package = "Generated.Protobuf";
+option java_multiple_files = true;
+
+
+// ------------- DTOS -------------
+message UserDTO {
+    string userName = 1;
+    string password = 2;
+}
+
+message AgeCategoryDTO{
+    string name = 1;
+    int32 minAge = 2;
+    int32 maxAge = 3;
+}
+
+message ParticipantDTO{
+    string name = 1;
+    int32 age = 2;
+    AgeCategoryDTO ageCategory = 3;
+}
+
+message TrialDTO{
+    string name = 1;
+    int32 difficulty = 2;
+}
+
+
+// ------------- REQUESTS -------------
+enum RequestType{
+    UnknownRequest = 0;
+    LoginRequest = 1;
+    LogoutRequest = 2;
+    GetTrialsRequest = 3;
+    GetAgeCategoriesRequest = 4;
+    GetParticipantsForTrialRequest = 5;
+    RegisterParticipantRequest = 6;
+    InitialiseConnectionRequest = 7;
+}
+
+message Request{
+    RequestType requestType = 1;
+    UserDTO user = 2;
+    string trialName = 3;
+    string ageCategoryName = 4;
+    string participantName = 5;
+    int32 participantAge = 6;
+    repeated string trials = 7;
+    string username = 8;
+}
+
+// ------------- RESPONSES -------------
+enum ResponseType{
+    InvalidRequest = 0;
+    OkResponse = 1;
+    FailureResponse = 2;
+    GetTrialsResponse = 3;
+    GetAgeCategoriesResponse = 4;
+    GetParticipantsResponse = 5;
+    UpdateResponse = 6;
+}
+
+message Response{
+    ResponseType responseType = 1;
+    repeated AgeCategoryDTO ageCategories = 2;
+    repeated TrialDTO trials = 3;
+    repeated ParticipantDTO participants = 4;
+    string ageCategoryName = 5;
+    repeated string registeredTrials = 6;
+    string errorMessage = 7;
+}
+
+// ------------- SERVICE -------------
+service AppService{
+    rpc sendRequest(stream Request) returns(stream Response);
+}

@@ -1,0 +1,38 @@
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.exe.config
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.exe
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.pdb
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Google.Protobuf.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Grpc.Core.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\MySql.Data.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\System.Interactive.Async.dll
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Google.Protobuf.xml
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Grpc.Core.xml
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\bin\Debug\System.Interactive.Async.xml
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.csprojResolveAssemblyReference.cache
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.exe
+D:\Projects\ClientServerApp - Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.pdb
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.exe.config
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.exe
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.pdb
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x86.so
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x86.dylib
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.exe
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\ServerCSharp.pdb
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Google.Protobuf.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Grpc.Core.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\MySql.Data.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\System.Interactive.Async.dll
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Google.Protobuf.xml
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\Grpc.Core.xml
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\bin\Debug\System.Interactive.Async.xml
+D:\Projects\ClientServerApp-Java-C#\ServerCSharp\ServerCSharp\obj\Debug\ServerCSharp.csprojResolveAssemblyReference.cache

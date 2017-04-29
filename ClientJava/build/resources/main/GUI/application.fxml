@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ContestController">
+    <left>
+        <VBox prefHeight="600.0" prefWidth="294.0" BorderPane.alignment="CENTER">
+            <children>
+                <TableView fx:id="trialTableView" onMouseClicked="#trialChanged" prefHeight="618.0" prefWidth="294.0">
+                    <columns>
+                        <TableColumn fx:id="trialNameTableColumn" prefWidth="75.0" text="Name" />
+                        <TableColumn fx:id="trialDifficultyTableColumn" prefWidth="75.0" text="Difficulty" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </children>
+        </VBox>
+    </left>
+    <right>
+        <VBox prefHeight="400.0" prefWidth="186.0" spacing="50.0" BorderPane.alignment="CENTER">
+            <children>
+                <TableView fx:id="ageCategoryTableView" onMouseClicked="#ageCategoryChanged" prefHeight="296.0" prefWidth="186.0">
+                    <columns>
+                        <TableColumn fx:id="ageCategoryNameTableColumn" prefWidth="37.0" text="Name" />
+                        <TableColumn fx:id="ageCategoryMinAgeTableColumn" prefWidth="57.0" text="Min Age" />
+                        <TableColumn fx:id="ageCategoryMaxAgeTableColumn" prefWidth="56.0" text="MaxAge" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+                <TableView fx:id="ParticipantsTableView" prefHeight="278.0" prefWidth="186.0">
+                    <columns>
+                        <TableColumn fx:id="ChildNameTableColumn" prefWidth="75.0" text="Name" />
+                        <TableColumn fx:id="ChildAgeTableColumn" prefWidth="75.0" text="Age" />
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </children>
+        </VBox>
+    </right>
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="BOTTOM_RIGHT">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#logoutClickedHandler" text="Log Out" />
+                    </children>
+                    <padding>
+                        <Insets right="5.0" top="5.0" />
+                    </padding>
+                </HBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                    <children>
+                        <Label text="Registered:" />
+                        <TextField fx:id="registeredCounterTextField" editable="false" prefHeight="25.0" prefWidth="98.0" promptText="Undefined" />
+                    </children>
+                </HBox>
+                <VBox prefHeight="211.0" prefWidth="320.0">
+                    <children>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                            <children>
+                                <Label prefHeight="17.0" prefWidth="91.0" text="Trial name" />
+                                <TextField fx:id="trialNameTextField" />
+                            </children>
+                            <padding>
+                                <Insets bottom="15.0" />
+                            </padding>
+                        </HBox>
+                        <HBox fx:id="ageCategoryNameTextField" alignment="TOP_CENTER" prefHeight="61.0" prefWidth="320.0" spacing="15.0">
+                            <children>
+                                <Label prefHeight="17.0" prefWidth="91.0" text="Age category " />
+                                <TextField fx:id="ageCategoryTextField" />
+                            </children>
+                            <padding>
+                                <Insets top="15.0" />
+                            </padding>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefHeight="51.0" prefWidth="320.0">
+                            <children>
+                                <Button fx:id="searchButton" mnemonicParsing="false" onMouseClicked="#searchClickedHandler" text="Search" />
+                            </children>
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <padding>
+                                <Insets right="20.0" />
+                            </padding>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox prefHeight="286.0" prefWidth="320.0">
+                    <children>
+                        <VBox prefHeight="241.0" prefWidth="320.0">
+                            <children>
+                                <HBox alignment="TOP_CENTER" prefHeight="62.0" prefWidth="310.0" spacing="30.0">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="63.0" text="Child Name" />
+                                        <TextField fx:id="childNameTextField" prefWidth="150.0" />
+                                    </children>
+                                    <padding>
+                                        <Insets left="10.0" top="10.0" />
+                                    </padding>
+                                </HBox>
+                                <HBox alignment="TOP_CENTER" prefHeight="60.0" prefWidth="310.0" spacing="30.0">
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="63.0" text="Child Age" />
+                                        <TextField fx:id="childAgeTextField" prefWidth="150.0" />
+                                    </children>
+                                    <padding>
+                                        <Insets left="10.0" />
+                                    </padding>
+                                </HBox>
+                                <HBox alignment="TOP_CENTER" prefHeight="71.0" prefWidth="310.0" spacing="30.0">
+                                    <padding>
+                                        <Insets left="10.0" />
+                                    </padding>
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                    <children>
+                                        <Label prefHeight="17.0" prefWidth="63.0" text="Trials" />
+                              <CheckComboBox fx:id="trialsComboBox" prefHeight="25.0" prefWidth="149.0" />
+                                    </children>
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets left="10.0" />
+                            </padding>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                            <children>
+                                <HBox alignment="TOP_RIGHT" prefHeight="58.0" prefWidth="320.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" onAction="#registerClickedHandler" text="Register" />
+                                    </children>
+                                    <padding>
+                                        <Insets right="30.0" />
+                                    </padding>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
